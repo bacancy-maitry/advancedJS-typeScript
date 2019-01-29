@@ -1,0 +1,224 @@
+<html>
+
+<head>
+    <title> Vehicle Program </title>
+    <script src="vehicle_info.js" type="text/javascript"></script>
+</head>
+
+<body>
+    <form name="vehicle">
+        <div class="leftdiv">
+            <h2> Car Form </h2>
+            <table border="1">
+                <tr>
+                    <td> Enter Wheels: </td>
+                    <td> <input type="text" name="carwheels" id="carWheels"> </td>
+                </tr>
+
+                <tr>
+                    <td> Enter Seats: </td>
+                    <td> <input type="text" name="carseats" id="carSeats"> </td>
+                </tr>
+
+                <tr>
+                    <td> Enter Type: </td>
+                    <td>
+                        <select name="cartype" id="carType">
+                            <option value="2000000"> Hatchback </option>
+                            <option value="1000000"> Sedan </option>
+                            <option value="4000000"> Crossover </option>
+                        </select>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td> Enter Brand: </td>
+                    <td>
+                        <select name="carbrand" id="carBrand">
+                            <option value="Swift"> Swift </option>
+                            <option value="Ciaz"> Ciaz </option>
+                            <option value="Volvo"> Volvo </option>
+                        </select>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td> Enter Model: </td>
+                    <td> <input type="text" name="carmodel" id="carModel"> </td>
+                </tr>
+
+                <tr>
+                    <td> Enter Engine Type: </td>
+                    <td> <input type="text" name="carenginetype" id="carEngineType"> </td>
+                </tr>
+
+                <tr>
+                    <td> Enter Year Of Purchase: </td>
+                    <td> <input type="text" name="caryearofpurchase" id="carYearOfPurchase"> </td>
+                </tr>
+
+                <tr>
+                    <td colspan="2" align="center"> <input type="button" name="carsubmit" value="Submit" onClick="getCarInfo()">
+                    </td>
+
+                </tr>
+            </table>
+        </div>
+        <div>
+            <h2> Car Table </h2>
+
+            <table border="1" id="carTable">
+                <tr>
+                    <td> Type </td>
+                    <td> Brand </td>
+                    <td> Model </td>
+                    <td> Price </td>
+                    <td> Engine Type </td>
+                    <td> Year Of Purchase </td>
+                    <td> No of Wheels </td>
+                    <td> No of Seats </td>
+                </tr>
+
+                <tbody>
+
+                </tbody>
+            </table>
+        </div>
+        <br><br><br>
+
+        <div class="rightdiv">
+            <h2> Bike Form </h2>
+
+            <table border="1">
+                <tr>
+                    <td> Enter Wheels: </td>
+                    <td> <input type="text" name="bikewheels" id="bikeWheels"> </td>
+                </tr>
+
+                <tr>
+                    <td> Enter Seats: </td>
+                    <td> <input type="text" name="bikeseats" id="bikeSeats"> </td>
+                </tr>
+
+                <tr>
+                    <td> Enter Brand: </td>
+                    <td>
+                        <select name="bikebrand" id="bikeBrand">
+                            <option value="Yamaha"> Yamaha </option>
+                            <option value="Ducati"> Ducati </option>
+                            <option value="Honda"> Honda </option>
+                        </select>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td> Enter Model: </td>
+                    <td> <input type="text" name="bikemodel" id="bikeModel"> </td>
+                </tr>
+
+                <tr>
+                    <td> Enter Engine Type: </td>
+                    <td> <input type="text" name="bikeenginetype" id="bikeEngineType"> </td>
+                </tr>
+
+                <tr>
+                    <td> Enter Year Of Purchase: </td>
+                    <td> <input type="text" name="bikeyearofpurchase" id="bikeYearOfPurchase"> </td>
+                </tr>
+
+                <tr>
+                    <td colspan="2" align="center"> <input type="button" name="bikesubmit" value="Submit" onClick="getBikeInfo()">
+                    </td>
+                </tr>
+            </table>
+        </div>
+
+        <div>
+            <h2> Bike Table </h2>
+
+            <table border="1" id="bikeTable">
+                <tr>
+                    <td> Brand </td>
+                    <td> Model </td>
+                    <td> Price </td>
+                    <td> Engine Type </td>
+                    <td> Year Of Purchase </td>
+                    <td> No of Wheels </td>
+                    <td> No of Seats </td>
+                </tr>
+
+                <tbody>
+
+                </tbody>
+            </table>
+        </div>
+
+        <br><br><br>
+        <div>
+            <h2> Cycle Form </h2>
+
+            <table border="1">
+                <tr>
+                    <td> Enter Wheels: </td>
+                    <td> <input type="text" name="cyclewheels" id="cycleWheels"> </td>
+                </tr>
+
+                <tr>
+                    <td> Enter Seats: </td>
+                    <td> <input type="text" name="cycleseats" id="cycleSeats"> </td>
+                </tr>
+
+                <tr>
+                    <td> Enter Brand: </td>
+                    <td>
+                        <select name="cyclebrand" id="cycleBrand">
+                            <option value="Giant"> Giant </option>
+                            <option value="Trek"> Trek </option>
+                            <option value="Atlas"> Atlas </option>
+                        </select>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td> Enter Model: </td>
+                    <td> <input type="text" name="cyclemodel" id="cycleModel"> </td>
+                </tr>
+
+                <tr>
+                    <td> Enter Year Of Purchase: </td>
+                    <td> <input type="text" name="cycleyearofpurchase" id="cycleYearOfPurchase"> </td>
+                </tr>
+
+                <tr>
+                    <td colspan="2" align="center"> <input type="button" name="cyclesubmit" value="Submit" onClick="getCycleInfo()">
+                    </td>
+                </tr>
+            </table>
+        </div>
+
+        <div>
+            <h2> Cycle Table </h2>
+
+            <table border="1" id="cycleTable">
+                <tr>
+                    <td> Brand </td>
+                    <td> Model </td>
+                    <td> Price </td>
+                    <td> Year Of Purchase </td>
+                    <td> No of Wheels </td>
+                    <td> No of Seats </td>
+                </tr>
+
+                <tbody>
+
+                </tbody>
+            </table>
+        </div>
+
+    </form>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.3.6/require.js"></script>
+
+</body>
+
+</html>

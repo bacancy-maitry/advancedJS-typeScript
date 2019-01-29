@@ -1,0 +1,61 @@
+.maindiv{
+	border: groove;
+	width: 800px;
+	height: 400px;
+	margin: 40px 300px;
+}
+
+.header{
+	padding-left: 270px;
+	font-size: 30px;
+	padding-top: 5px;
+}
+
+.label{
+	font-size: 20px;
+}
+
+.leftdiv{
+	padding: 50px;
+}
+
+.numberDiv{
+	margin: 10px 2px;
+}
+
+.limitDiv{
+	margin: 10px 35px;
+}
+
+.textbox{
+	width: 200px;
+	height: 20px;
+}
+
+.button{
+	margin: 30px 150px;
+	width: 100px;
+	height: 30px;
+	background-color: lightblue;
+	font-size: 15px;
+	border: 1px solid black;
+	border-radius: 5px;
+}
+
+.multable{
+	border: groove;
+	width: 400px;
+	height: 300px;
+	/*margin: 50px 100px;*/
+	margin-left: 80px;
+}
+
+#heading{
+	font-size: 20px;
+	margin: 20px;
+}
+
+#output{
+	font-size: 15px;
+	margin: 20px;
+}
